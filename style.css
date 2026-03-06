@@ -5,7 +5,6 @@
 }
 body {
   margin: 0;
-  font-family: Arial;
   background: #ecf0f6;
 
   display: flex;
@@ -27,12 +26,16 @@ body {
   padding: 20px;
   width: 50%;
   text-align: center;
-  width: 50%;
 }
 .intro {
   color: white;
   font-weight: 100;
   font-size: 20px;
+}
+.stats {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
 }
 .circle {
   border-radius: 50%;
@@ -51,9 +54,16 @@ body {
   font-size: 15px;
   color: grey;
 }
+.great {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  padding-block: 15px;
+}
 h2 {
   padding-block: 10px;
-  color: #ecf0f6;
+  color: black;
+  padding-inline: 20px;
 }
 .info {
   color: aliceblue;
@@ -99,8 +109,8 @@ h3 {
   color: #8890d3;
 }
 span {
-  padding-left: 70px;
   color: black;
+  padding-left: 70px;
 }
 button {
   width: 100%;
